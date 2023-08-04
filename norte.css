@@ -1,0 +1,258 @@
+body{
+    font-family:url('https://fonts.googleapis.com/css2?family= Noto +Sans:wght@400;700 & display=swap')
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.header{
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 500px;
+    flex-direction: row;
+    background-image: url("img/norte.png");
+}
+
+.logo{
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    top: 1rem;
+    left: 1rem;
+}
+
+.menu{
+    position: absolute;
+    top: 1rem;
+    left: 10rem;
+    color:black;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.menu h1{
+    display: inline;
+    margin-left: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.tituloPrincipal{
+    position: relative;
+    color: black;
+    font-size: 4rem;
+    text-shadow: 0 0 4rem;
+    left: 60px;
+    top: 200px;
+    width: 1000px;
+}
+
+.tituloPrincipal-2{
+    display: none;
+}
+
+.conteiner{
+     margin-top: 2rem;
+     width: 100%;
+  
+}
+
+.titulo{
+    font-size: 1.8rem;
+    left: 1rem;
+}
+
+.subtitulos{
+   font-size: 2rem; 
+   text-align: center;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    font-family: Ubuntu,sans-serif;
+    position: relative;
+}
+
+img{
+    height: 352.5px;
+    width: 630px;
+    left: 28%;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+h2{
+    font-size: 1.3rem;
+    position: relative;
+    text-align: center;
+    margin-bottom: 2rem;
+    line-height: 1.65em;
+}
+
+@media screen and (max-width: 600px){
+
+    .header{
+        height: 240px;
+        width: 100%;
+        background-image: url(img/norte\ celular.png);
+    }
+
+    .tituloPrincipal{
+
+        display: none;
+    }
+
+    .tituloPrincipal-2{
+        position: relative;
+        font-size: 32px;
+        left: 1rem;
+        top: 7rem;
+        display: block;
+        color: #fff;
+        width: 330px;
+    }
+
+    .btn-menu{
+        display: block;
+        top: 2rem;
+        right: 2rem;
+        position: absolute;     
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    .btn-menu div{
+        width: 38px;
+        height: 5px;
+        background: #fff;
+        margin: 8px;
+        border-radius: 10px;
+    }
+
+    .fechar{
+        display: none;
+    } 
+
+
+    .btn-menu-x{
+        cursor: pointer;
+        display: none;
+        -webkit-tap-highlight-color: transparent;
+        position: absolute;   
+        top: 1rem;
+        right: 1rem;
+    }
+
+    .btn-menu-x .linha1{
+        width: 38px;
+        height: 5px;
+        background: #fff;
+        margin: 8px;
+        transform: rotate(45deg);
+        top: 28px;
+        right: 1rem;
+        position: relative;
+        border-radius: 10px;
+    }
+    
+    .btn-menu-x .linha2{
+        width: 38px;
+        height: 5px;
+        background: #fff;
+        margin: 8px;
+        transform: rotate(135deg);
+        top: 1rem;
+        right: 1rem;
+        position: relative;
+        border-radius: 10px;
+    }
+
+    .abrir{
+        display: block;
+    }
+
+    .logo{
+        height: 4rem;
+        width: 4rem;
+    }
+
+    .fundo-menu{
+        height: 5rem;
+        top: 0.5rem;
+    }
+
+    .menu{
+        position: fixed;
+        width: 100%;
+        height: 647.2px;
+        top: 5.8rem;
+        flex-direction: column;
+        justify-content: space-around;     
+        left: auto;
+        transition: .5s;
+        display: none;
+        background-color: #23232e;
+        text-align: center;
+    }
+
+    .menu a{
+        color: #fff;
+    }
+
+    .menu a:hover{
+        color: gray;
+    }
+
+    .open {
+        display: flex;
+        overflow-x: hidden;
+        width: 360px;
+    }
+    body.fixo{
+        overflow: hidden;
+    }
+
+    .conteiner{
+        text-align: center;  
+        overflow-x: hidden;
+    }
+
+    .subtitulos{
+        text-align: center;
+        margin-left: 1rem;
+        width: 33
+        0px;
+    }
+
+    .conteiner.remover{
+        display: none;
+    }
+
+    .itemremover.remover{
+        display: none;
+    }
+
+    .tituloPrincipal-2.remover{
+        display: none;
+    }
+
+    img{
+        width: 315px;
+        height: 174.25px;
+        left: auto;
+    }
+
+    h1{
+        width: 340px;
+    }
+
+    h2{
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+
+}

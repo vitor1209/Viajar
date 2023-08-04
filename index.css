@@ -1,0 +1,544 @@
+body{
+    font-family:url('https://fonts.googleapis.com/css2?family= Noto +Sans:wght@400;700 & display=swap')
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.header{
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 500px;
+    background-image: url("img/img\ maldivas\ 3.png");
+    flex-direction: row;
+
+}
+
+.logo{
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    top: 1rem;
+    left: 1rem;
+}
+
+.menu{
+    position: relative;
+    bottom: 95px;
+    left: 10rem;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    width: 1000px;
+}
+
+.btn-menu{
+    cursor: pointer;
+    display: none;
+}
+
+.btn-menu div{
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+}
+
+
+.btn-menu-x{
+    cursor: pointer;
+    display: none;
+}
+
+.btn-menu-x .linha1{
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+    transform: rotate(45deg);
+}
+
+.btn-menu-x .linha2{
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+    transform: rotate(135deg);
+}
+
+.menu h1{
+    display: inline;
+    margin-left: 1rem;
+}
+
+.fundo-menu{
+    width: 100%;
+    height: 6rem;
+    top: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.tituloPrincipal{
+    position: relative;
+    color: white;
+    font-size: 4rem;
+    text-shadow: 0 0 4rem;
+    left: 100px;
+    top: 150px;
+    width: 700px;
+    margin: 0;
+}
+
+.tituloPrincipal-2{
+    position: relative;
+    color: white;
+    font-size: 4rem;
+    text-shadow: 0 0 4rem;
+    left: 100px;
+    top: 150px;
+    width: 700px;
+    margin: 0;
+    display: none;
+}
+
+.conteiner{
+     margin-top: 2rem;
+     width: 100%;
+     text-align: center;
+}
+
+.titulo{
+    font-size: 1.8rem;
+    left: 1rem;
+}
+
+.subtitulos{
+    font-size: 24px;
+    margin-left: 7rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    line-height: 1.4em;
+}
+
+.sub-txt2{
+    display: none;
+}
+
+
+/*card*/
+
+.pacotes-nacionais{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 300px;
+    height: 460px;
+    margin: 25px;
+    background-color: #CCCCCC;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0,7);
+    transition: 0.3s;
+    margin-bottom: 2rem;
+}
+
+/*card header*/
+.card-header{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.card-img{
+    min-width: 100%;
+    width: auto;
+    height: 100%;
+}
+
+/*card body*/
+
+.card-body{
+    height: 170px;
+    padding: 15px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.card-local{
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.card-titulo{
+    font-size: 32px;
+    margin: 15px 0;
+}
+
+.card-texto{
+    font-size: 12px;
+    width: 250px;
+    margin: 0 auto;
+    line-height: 1.11em
+}
+
+/*card footer*/
+.card-footer{
+    margin-top: 10px;
+    text-align: center;
+    background-color: #000;
+}
+
+.card-footer a {
+    color: #fff;
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+/*cores card*/
+
+.card1 .card-footer{
+    background-color: #2740d1;
+}
+
+.card1 .card-local{
+    color: #2740d1;
+}
+
+.card2 .card-footer{
+    background-color: #d12761;
+}
+
+.card2 .card-local{
+    color: #d12761;
+}
+
+.card3 .card-footer{
+    background-color: #00c702;
+}
+
+.card3 .card-local {
+    color: #00c702;
+}
+
+
+/*animação*/
+.card:hover{
+    transform: scale3d(1.1,1.1,1);
+}
+
+/*mapa brasil*/
+
+.mapa-bra{
+    position: relative;
+    left: 25px;
+    margin-top: 2rem;
+    width: 95%;
+}
+
+.regioes{
+    text-align: center;
+}
+
+/*link*/
+
+.sudeste a{
+    color: black;
+}
+
+.sul a{
+    color: black;
+}
+
+.centro-oeste a {
+    color: black;
+}
+
+.nordeste a{
+    color: black;
+}
+
+.norte a{
+    color: black;
+}
+
+/*posição-regiões*/
+
+.sul{
+    position: relative;
+    left: 250px;
+    bottom: 120px;
+    font-size: 32px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    text-decoration: underline;
+    width: 1000px;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.sudeste{
+    position: relative;
+    left: 340px;
+    bottom: 260px;
+    font-size: 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    text-decoration: underline;
+    width: 1000px;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.centro-oeste{
+    position: relative;
+    left: 220px;
+    bottom: 360px;
+    font-size: 24px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    text-decoration: underline;
+    width: 1000px;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.norte{
+    position: relative;
+    bottom: 545px;
+    font-size: 38px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    text-decoration: underline;
+    -webkit-tap-highlight-color: transparent;
+   
+}
+
+.nordeste{
+    position: relative;
+    left: 409px;
+    bottom: 520px;
+    font-size: 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    text-decoration: underline;
+    width: 1000px;
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+}
+
+
+@media screen and (max-width: 600px){
+
+    .header{
+        height: 270px;
+        width: 100%;
+        background-image: url(img/img\ maldivas\ 5.png);
+    }
+
+    .tituloPrincipal{
+        display: none;
+    }
+
+    .tituloPrincipal-2{
+        font-size: 2rem;
+        left: 0.5rem;
+        top: 100px;
+        display: block;
+        color: #000;
+        width: 350px;
+    }
+
+    .btn-menu{
+        display: block;
+        top: 2rem;
+        right: 2rem;
+        position: absolute;     
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    .btn-menu div{
+        width: 38px;
+        height: 5px;
+        background: #fff;
+        margin: 8px;
+        border-radius: 10px;
+    }
+
+    .fechar{
+        display: none;
+    } 
+
+
+    .btn-menu-x{
+        cursor: pointer;
+        display: none;
+        -webkit-tap-highlight-color: transparent;
+        position: absolute;   
+        top: 1rem;
+        right: 1rem;
+    }
+
+    .btn-menu-x .linha1{
+        width: 38px;
+        height: 5px;
+        background: #fff;
+        margin: 8px;
+        transform: rotate(45deg);
+        top: 28px;
+        right: 1rem;
+        position: relative;
+        border-radius: 10px;
+    }
+    
+    .btn-menu-x .linha2{
+        width: 38px;
+        height: 5px;
+        background: #fff;
+        margin: 8px;
+        transform: rotate(135deg);
+        top: 1rem;
+        right: 1rem;
+        position: relative;
+        border-radius: 10px;
+    }
+
+    .abrir{
+        display: block;
+    }
+
+    .logo{
+        height: 4rem;
+        width: 4rem;
+    }
+
+    .fundo-menu{
+        height: 5rem;
+        top: 0.5rem;
+    }
+
+    .menu{
+        position: fixed;
+        width: 100%;
+        height: 647.2px;
+        top: 5.8rem;
+        flex-direction: column;
+        justify-content: space-around;     
+        left: auto;
+        transition: .5s;
+        display: none;
+        background-color: #23232e;
+        text-align: center;
+    }
+
+    .menu a{
+        color: #fff;
+    }
+
+    .menu a:hover{
+        color: gray;
+    }
+
+    .open {
+        display: flex;
+        overflow-x: hidden;
+        width: 360px;
+    }
+    body.fixo{
+        overflow: hidden;
+    }
+
+    .mapa-bra  img {
+        width: 315px ;
+        height:307px;
+        position: relative;
+    }
+
+    .mapa-bra{
+        width: 320px;
+    }
+
+    .conteiner{
+        text-align: left;  
+        overflow-x: hidden;
+    }
+
+    .sul {
+        left: 190px;
+        bottom: 66px;
+        font-size: 20px;
+        width: 80px;
+    }
+
+    .sudeste{
+        left: 210px;
+        bottom: 140px;
+        font-size: 18px;
+        width: 100px;
+    }
+
+    .centro-oeste{
+     left: 157px;
+     bottom: 200px;
+     font-size: 18px;
+     width: 140px;
+    }
+
+    .norte{
+        left: 120px;
+        bottom: 320px;
+        font-size: 24px;
+        width: 150px;
+    }
+
+    .nordeste{
+        left: 248px;
+        bottom: 313px;
+        font-size: 16px;
+        width: 100px;
+    }
+
+    .subtitulos{
+        text-align: left;
+        margin-left: 1rem;
+        width: 33
+        0px;
+    }
+
+    .sub-txt2{
+       display: block;
+    }
+
+    .sub-txt1{
+        display: none;
+    }
+
+    .conteiner.remover{
+        display: none;
+    }
+
+    .itemremover.remover{
+        display: none;
+    }
+
+    .tituloPrincipal-2.remover{
+        display: none;
+    }
+
+}
