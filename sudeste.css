@@ -97,7 +97,7 @@ h2{
 @media screen and (max-width: 600px){
 
     .header{
-        height: 200px;
+        height: 229px;
         width: 100%;
         background-image: url(img/sudeste-brasil-1\ celular.png);
     }
@@ -188,7 +188,7 @@ h2{
     .menu{
         position: fixed;
         width: 100%;
-        height: 647.2px;
+        height: 100%;
         top: 5.8rem;
         flex-direction: column;
         justify-content: space-around;     
@@ -210,7 +210,7 @@ h2{
     .open {
         display: flex;
         overflow-x: hidden;
-        width: 360px;
+      
     }
     body.fixo{
         overflow: hidden;
